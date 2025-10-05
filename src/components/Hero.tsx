@@ -28,8 +28,8 @@ const Hero = () => {
       }}
     >
       <div className="container mx-auto px-4 text-center z-10">
-        <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in">
-          Melos Café
+        <h1 className="text-6xl md:text-8xl font-retro text-primary-foreground mb-6 animate-fade-in tracking-wider">
+          MELOS CAFÉ
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 font-light animate-fade-in">
           Where aroma meets ambience.

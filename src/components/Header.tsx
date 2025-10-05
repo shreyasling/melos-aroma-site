@@ -36,9 +36,9 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <button
             onClick={() => scrollToSection("home")}
-            className="text-2xl font-semibold text-primary hover:opacity-80 transition-opacity"
+            className="text-2xl font-retro text-primary hover:opacity-80 transition-opacity tracking-wider"
           >
-            Melos Café
+            MELOS CAFÉ
           </button>
           
           <div className="flex items-center gap-6">
