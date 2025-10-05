@@ -1,4 +1,4 @@
-import { Coffee, UtensilsCrossed, Image, MessageCircle, MapPin } from "lucide-react";
+import { Coffee, UtensilsCrossed, Image, MessageCircle, MapPin, Music } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -36,8 +36,9 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <button
             onClick={() => scrollToSection("home")}
-            className="text-2xl font-retro text-primary hover:opacity-80 transition-opacity tracking-wider"
+            className="text-2xl font-retro text-primary hover:opacity-80 transition-opacity tracking-wider flex items-center gap-2"
           >
+            <Music className="w-6 h-6" />
             MELOS CAFÉ
           </button>
           

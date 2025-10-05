@@ -1,5 +1,5 @@
 import { useInView } from "react-intersection-observer";
-import { MapPin, Phone, Mail, Clock, Instagram, Facebook } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Music4 } from "lucide-react";
 
 const Contact = () => {
   const { ref, inView } = useInView({
@@ -10,14 +10,18 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <h2
+        <div
           ref={ref}
-          className={`text-4xl md:text-5xl font-bold text-center mb-12 text-primary transition-all duration-700 ${
+          className={`flex items-center justify-center gap-3 mb-12 transition-all duration-700 ${
             inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          Visit Us
-        </h2>
+          <Music4 className="w-10 h-10 text-primary" />
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-primary">
+            Visit Us
+          </h2>
+          <Music4 className="w-10 h-10 text-primary" />
+        </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <div
