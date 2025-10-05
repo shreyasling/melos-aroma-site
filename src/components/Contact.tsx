@@ -34,9 +34,9 @@ const Contact = () => {
               <div>
                 <h3 className="font-semibold text-lg mb-1">Address</h3>
                 <p className="text-muted-foreground">
-                  123 Coffee Street<br />
-                  Downtown District<br />
-                  City, State 12345
+                  Shivakumar, Gokulam,<br />
+                 Jayalakshmipuram, Mysore<br />
+                  570012 (Opposite Zudio)
                 </p>
               </div>
             </div>
@@ -45,7 +45,7 @@ const Contact = () => {
               <Phone className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold text-lg mb-1">Phone</h3>
-                <p className="text-muted-foreground">(555) 123-4567</p>
+                <p className="text-muted-foreground">(+91) 9113237194</p>
               </div>
             </div>
             
@@ -70,7 +70,7 @@ const Contact = () => {
             
             <div className="flex items-center gap-4 pt-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/meloscafe_mysuru/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:text-primary/80 transition-colors"
@@ -78,7 +78,7 @@ const Contact = () => {
               >
                 <Instagram className="w-7 h-7" />
               </a>
-              <a
+              {/* <a
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -86,7 +86,7 @@ const Contact = () => {
                 aria-label="Facebook"
               >
                 <Facebook className="w-7 h-7" />
-              </a>
+              </a> */}
             </div>
           </div>
           
@@ -96,7 +96,7 @@ const Contact = () => {
             }`}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9476519598093!2d-73.99185368459394!3d40.74117797932881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1647975456789!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1948.9437091674536!2d76.62193993630038!3d12.323363845060287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7b005c1be403%3A0xf65cbd487a421c2b!2sMelo&#39;s%20Cafe!5e0!3m2!1sen!2sin!4v1759663148811!5m2!1sen!2sin" 
               width="100%"
               height="400"
               style={{ border: 0 }}
